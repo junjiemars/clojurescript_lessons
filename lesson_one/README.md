@@ -31,6 +31,24 @@ ClojureScript will watching **src** directory for changing.
 $ clojurescript auto.clj
 ```
 
+## REPL
+> Checkout the commit with comment "Lesson_One:REPL".
+* run repl.clj
+```sh
+$ clojurescript repl.clj
+
+# to quit, type: :cljs/quit
+```
+* run auto.clj watching **src**
+```sh
+$ clojurescript auto.clj
+```
+* open browser and go http://localhost:9000
+* wating REPL's log
+```sh
+$ tail -f out/watch.log
+```
+
 ## The simplest Release
 Checkout the commit with comment "Lesson_One:The simplest Release".
 
