@@ -1,15 +1,10 @@
-(ns lesson-one.core
-  (:require [clojure.browser.repl :as repl]))
-
-(defonce conn
-  (repl/connect "http://localhost:9000/repl"))
+(ns lesson-one.core)
 
 (enable-console-print!)
 
 (println "Welcome to ClojureScript's World")
 
-
-(defn square [n]
+(defn ^:export square [n]
   (* n n))
 
 (defn average [x y]
@@ -32,5 +27,5 @@
     guess
     (square-iter (improve guess x) x)))
 
-(defn square-root [n]
+(defn ^:export square-root [n]
   (square-iter 1.0 n))

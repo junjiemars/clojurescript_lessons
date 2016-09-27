@@ -50,7 +50,15 @@ $ tail -f out/watch.log
 ```
 
 ## The simplest Release
-Checkout the commit with comment "Lesson_One:The simplest Release".
+> Checkout the commit with comment "Lesson_One:The simplest Release".
+
+* Cut the **REPL** code out;
+* **^:export** to export **square** and **square-root** functions;
+
+```sh
+# build to release
+$ clojurescript release.clj
+```
 
 
 
