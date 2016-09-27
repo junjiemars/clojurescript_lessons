@@ -1,5 +1,5 @@
-(ns lessons_one.core)
+(ns lesson_one.core)
 
 (enable-console-print!)
 
-(println "Let's go Lesson One")
+(println "Welcome to ClojureScript's World")

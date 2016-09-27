@@ -15,10 +15,13 @@ Checkout the commit with comment "Wild Hello World".
 It does works yet.
 
 ## It's working
-Checkout the commit with comment "It's working".
+Checkout the commit with comment "Lesson_One:It's working".
+```sh
+clojurescript build.clj
+```
 
 ## The simplest Release
-Checkout the commit with comment "The simplest Release".
+Checkout the commit with comment "Lesson_One:The simplest Release".
 
 
 
