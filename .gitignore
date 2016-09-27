@@ -7,6 +7,10 @@ pom.xml.asc
 /checkouts/
 **/out/
 **/.repl-*/
+**/resources/
+**/target/
+**/browser/
+**/repl/
 .lein-deps-sum
 .lein-repl-history
 .lein-plugins/
