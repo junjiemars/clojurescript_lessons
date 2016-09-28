@@ -11,28 +11,28 @@ $ clojurescript
 ```
 
 ## Wild Hello World
-> Checkout the commit with comment "Wild Hello World".
-It does works yet.
+> Checkout tag:[lesson_one/wild](https://github.com/junjiemars/clojurescript_lessons/tree/lesson_one/wild) which commented with "Wild Hello World".
+It doesn't works yet.
 
 ## It's working
-> Checkout the commit with comment "Lesson_One:It's working".
+> Checkout tag:[lesson_one/working](https://github.com/junjiemars/clojurescript_lessons/tree/lesson_one/working) which commented with "Lesson_One:It's working".
 ```sh
 clojurescript build.clj
 ```
 
 ## Specify **main** on build
-> Checkout the commit with comment "Lesson_One:Specify main on build".
+> Checkout tag:[lesson_one/main](https://github.com/junjiemars/clojurescript_lessons/tree/lesson_one/main) which commented with "Lesson_One:Specify main on build".
 Observe the changes in **index.html**
 
 ## Auto building
-> Checkout the commit with comment "Lesson_One:Auto building".
+> Checkout tag:[lesson_one/auto](https://github.com/junjiemars/clojurescript_lessons/tree/lesson_one/auto) wich  commented with "Lesson_One:Auto building".
 ClojureScript will watching **src** directory for changing.
 ```sh
 $ clojurescript auto.clj
 ```
 
 ## REPL
-> Checkout the commit with comment "Lesson_One:REPL".
+> Checkout tag:[lesson_one/repl](https://github.com/junjiemars/clojurescript_lessons/tree/lesson_one/repl) which commented with "Lesson_One:REPL".
 * run repl.clj
 ```sh
 $ clojurescript repl.clj
