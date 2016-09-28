@@ -1,1 +1,1 @@
-linguist-language=ClojureScript
+*.cljs linguist-language=ClojureScript
