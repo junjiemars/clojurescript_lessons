@@ -7,10 +7,11 @@ pom.xml.asc
 /checkouts/
 **/out/
 **/.repl-*/
-**/resources/
 **/target/
 **/browser/
 **/repl/
+**/figwheel_server.log
+**/resources/public/js/
 .lein-deps-sum
 .lein-repl-history
 .lein-plugins/
