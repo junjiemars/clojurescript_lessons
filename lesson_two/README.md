@@ -4,6 +4,7 @@ works.
 
 
 ## Wild
+> Checkout tag:[Lesson_two/wild](https://github.com/junjiemars/clojurescript_lessons/tree/lesson_two/wild)
 
 * Start REPL in Terminal
 ```sh
