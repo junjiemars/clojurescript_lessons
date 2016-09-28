@@ -1,0 +1,35 @@
+.box {
+  flex-flow: row nowrap;
+  justify-content: center;
+  width: 360px;
+}
+
+.item {
+  flex-basis: auto;
+}
+
+#links ul {
+  list-style: none;
+  padding: 0px;
+}
+
+#links a, #links a:active, #links a:visited {
+  color: #3F6EC2;
+  display: block;
+  border-top: 1px solid #DDDDDD;
+  padding: 3px;
+  padding-left: 5px;
+}
+
+#links a:hover {
+  background: #EEEEEE;
+}
+
+#links ul li {
+  float: left;
+}
+
+#options_link #echo_link {
+  font-family : "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 12px;
+}

@@ -11,9 +11,14 @@ pom.xml.asc
 **/browser/
 **/repl/
 **/figwheel_server.log
-**/resources/public/js/
+**/resources/public/js/*
+**/resources/public/js/out/
+!**/resources/public/css
+!**/resources/public/*
+**/.DS_Store
 .lein-deps-sum
 .lein-repl-history
 .lein-plugins/
 .lein-failures
 .nrepl-port
+*.swp
