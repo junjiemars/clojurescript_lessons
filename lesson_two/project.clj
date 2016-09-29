@@ -8,8 +8,8 @@
   :source-paths ["src"]
   :cljsbuild {
               :builds [{:id "dev"
-                        :source-paths ["src"]
                         :figwheel true
+                        :source-paths ["src"]
                         :compiler {:main "arlo.core"
                                    :asset-path "js/out"
                                    :output-to "resources/public/js/arlo.js"
