@@ -10,12 +10,13 @@ pom.xml.asc
 **/target/
 **/browser/
 **/repl/
-**/figwheel_server.log
+figwheel_server.log
 **/resources/public/js/*
 **/resources/public/js/out/
 !**/resources/public/css
 !**/resources/public/*
 **/.DS_Store
+**/.cljs_rhino_repl/
 .lein-deps-sum
 .lein-repl-history
 .lein-plugins/

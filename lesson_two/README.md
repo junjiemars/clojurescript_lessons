@@ -19,6 +19,15 @@ goto ```http://localhost:<server-port>/<your-html-filename>```
 * Now, you can REPL
 
 
-## Editor REPL
+## nREPL
+Play with nREPL in [Emacs/cider](https://github.com/bhauman/lein-figwheel/wiki/Using-the-Figwheel-REPL-within-NRepl#integration-with-emacscider).
+
+First, setup Emacs:
+```sh
+$ cd
+$ git clone --depth=1 --branch=master https://github.com/junjiemars/.emacs.d.git
+```
+
+Second, open your Emacs, then **cider-jack-in-clojurescript**
 
 

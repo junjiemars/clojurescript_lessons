@@ -6,6 +6,10 @@
                                     "resources/public/js/arlo.js"
                                     :target-path]
   :source-paths ["src"]
+  :profiles {:dev {:dependencies [[figwheel-sidecar "0.5.8"]
+                                  [com.cemerick/piggieback "0.2.1"]]
+                   :source-paths ["src"]}}
+  :repl-options {:nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]}
   :cljsbuild {
               :builds [{:id "dev"
                         :figwheel true
