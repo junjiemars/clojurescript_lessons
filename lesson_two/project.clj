@@ -19,8 +19,12 @@
                                    :output-to "resources/public/js/arlo.js"
                                    :output-dir "resources/public/js/out"
                                    :optimizations :none
-                                   }
-                        }]
+                                   }}
+                       {:id "pro"
+                        :source-paths ["src"]
+                        :compiler {:output-to "resources/public/js/arlo.js"
+                                   :optimizations :advanced
+                                   :pretty-print false}}]
               }
   :figwheel {:css-dirs ["resources/public/css"]
              :open-file-command "emacsclient"})

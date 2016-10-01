@@ -1,7 +1,11 @@
 # Lesson Two
 Learn how [Figwheel](https://github.com/bhauman/lein-figwheel) build ClojureScript code and how REPL works. 
 
-Go into **lesson_two** directory.
+* [Wild](#wild)
+* [nREPL](#nrepl)
+* [Release](#release)
+
+Checkout corresponding **tag**, go into **lesson_two** directory and play.
 
 
 ## Wild
@@ -34,3 +38,11 @@ $ git clone --depth=1 --branch=master https://github.com/junjiemars/.emacs.d.git
 Second, open your Emacs, then **cider-jack-in-clojurescript**
 
 
+## Release
+Checkout tag:[lesson_two/release](https://github.com/junjiemars/clojurescript_lessons/tree/lesson_two/release)
+
+Now, It's time to release to production environment.
+
+```sh
+$ lein figwheel :once pro
+```
