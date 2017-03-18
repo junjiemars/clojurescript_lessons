@@ -29,3 +29,12 @@
 
 (defn ^:export square-root [n]
   (square-iter 1.0 n))
+
+(comment
+(defn ^:export fibnacci [n]
+	(defn fib-iter [a b n]
+		(if (zero? n)
+			a
+			(fib-iter b (+ a b) (dec n))))
+	(fib-iter 0 1 n))
+)
