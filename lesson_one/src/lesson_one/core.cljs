@@ -1,4 +1,11 @@
-(ns lesson-one.core)
+(ns lesson-one.core
+	(:require [clojure.browser.repl :as repl])
+)
+
+;; repl
+(defonce conn
+	(repl/connect "http://localhost:9000/repl"))
+
 
 (enable-console-print!)
 
@@ -30,6 +37,7 @@
 (defn ^:export square-root [n]
   (square-iter 1.0 n))
 
+;; auto build 
 (comment
 (defn ^:export fibnacci [n]
 	(defn fib-iter [a b n]
@@ -38,3 +46,4 @@
 			(fib-iter b (+ a b) (dec n))))
 	(fib-iter 0 1 n))
 )
+
